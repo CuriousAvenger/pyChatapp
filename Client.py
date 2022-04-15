@@ -2,7 +2,7 @@ import socket, threading
 
 FADDR = input("Enter your friend's addr: ")
 PORT = 4444
-IP = "192.168.0.9"
+IP = #<change this to server ip>
 ADDR = (IP, PORT)
 
 cl_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #start the tcp connection

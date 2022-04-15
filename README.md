@@ -4,3 +4,10 @@ Socket-ChatApp is a basic server and client communication system between two nod
 # How To Install
 - git clone https://github.com/CuriousAvenger/Sockets-ChatApp
 - python3 server.py or client.py # Python3 Required
+
+# How To Use
+- A host is required to run server.py, to which our clients will connect. 
+- Change the variable 'IP' in client.py to the server's IP address. 
+- Use ipconfig for windows or ifconfig for mac/linux to get the IP addr. 
+- After client & server connects, specify the IP of your friend & vice versa.
+- This enables communication between 2 users, and to quit, type 'quit'.

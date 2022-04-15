@@ -3,5 +3,4 @@ Socket-ChatApp is a basic server and client communication system between two nod
 
 # How To Install
 - git clone https://github.com/CuriousAvenger/Sockets-ChatApp
-- pip install -r requirements.txt
 - python3 server.py or client.py # Python3 Required

@@ -2,7 +2,7 @@ import socket, threading
 
 FADDR = {}
 PORT = 4444
-IP = "192.168.0.9"
+IP = "0.0.0.0"
 ADDR = (IP, PORT)
 
 sr_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #start the tcp connection

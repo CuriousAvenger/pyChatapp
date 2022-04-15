@@ -7,11 +7,12 @@ Socket-ChatApp is a basic server and client communication system between two nod
 
 # How To Use
 - A host is required to run server.py, to which our clients will connect. 
-- Change the variable 'IP' in client.py to the server's IP address. 
+- Change the variable `IP` in client.py to the server's IP address. 
 - Use ipconfig for windows or ifconfig for mac/linux to get the IP addr. 
 - After client & server connects, specify the IP of your friend & vice versa.
 - This enables communication between 2 users, and to quit, type 'quit'.
 
 # Error Handling
 - Make sure the two users are **not** from the same device, else the ChatApp will crash.
-- If you run into a forever loop, use task manager to kill python to exit the ChatApp. 
+- If you run into a forever loop, use task manager to kill python to exit the ChatApp.
+- Make sure no other program uses the port 4444. If it does, then change it var `PORT` in server.py and client.py

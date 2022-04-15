@@ -11,3 +11,4 @@ Socket-ChatApp is a basic server and client communication system between two nod
 - Use ipconfig for windows or ifconfig for mac/linux to get the IP addr. 
 - After client & server connects, specify the IP of your friend & vice versa.
 - This enables communication between 2 users, and to quit, type 'quit'.
+- Make sure the two users are not from the same device, else the program crashes.

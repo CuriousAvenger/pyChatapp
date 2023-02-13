@@ -15,4 +15,4 @@ Socket-ChatApp is a basic server and client communication system between two nod
 # Error Handling
 - Make sure the two users are **not** from the same device, else the ChatApp will crash.
 - If you run into a forever loop, use task manager to kill python to exit the ChatApp.
-- Make sure no other program uses the port 4444. If it does, then change the variable `PORT` in server.py and client.py
+- Make sure no other program uses the port 4444. If it does, then change the variable `PORT` in server.py and client.py 

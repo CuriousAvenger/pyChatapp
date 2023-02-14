@@ -1,4 +1,4 @@
-import socket, threading
+import socket, threading 
 
 FADDR = input("Enter your friend's addr: ")
 PORT = 4444
